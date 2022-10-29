@@ -1,6 +1,5 @@
 import React from 'react'
 import MainSection from '../components/MainSection';
-import Footer from "../components/Footer";
 import Services from '../components/Services';
 import Card from "../components/Card";
 import Pricing from "../components/Pricing";
@@ -18,7 +17,6 @@ const Home = () => {
       <Carousel/>
      <Pricing/>
      <Address/>
-     <Footer/>
       </div>
   )
 }

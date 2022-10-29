@@ -34,13 +34,13 @@ const Navbar = () => {
       </Menu>
           </IconButton>
           <Typography textAlign="center" variant="h5">Taalim School of Music</Typography>
-          <Box alignItems="center" ml="auto" mr="17px" sx={{display:{sm:"none", md:"flex", xs:"none"}}}>
-            <Tooltip title="Contact Us on +919830995366 to know more or send us a message on xyz@gmail.com">
+          <Box display="flex" alignItems="center" justifyContent="center" ml="auto" mr="17px" sx={{display:{xs:"none", sm:"none", lg:"flex", md:"flex"}}}>
+            <Tooltip title="Contact Us on +919830995366 for more details">
             <IconButton size="large">
             <LocalPhoneIcon/>
           </IconButton>
           </Tooltip>
-          <p style={{marginRight:"3px"}}>+919830995366</p>
+          <p style={{marginRight:"3px", paddingTop:"15px"}}>+919830995366</p>
           </Box>
         </Toolbar>
       </AppBar>

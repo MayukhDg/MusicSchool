@@ -6,7 +6,7 @@ import Prajwal from "../assets/Prajwal.jpeg";
 
 const MusicCard = () => {
   return (
-    <Box display="flex" flexWrap= "wrap" justifyContent= "center" alignItems = "center" sx={{flexDirection:{lg:"row", md:"row", sm:"column", xs:"column"}, mb:"15px"}}>
+    <Box id="testimonials" display="flex" flexWrap= "wrap" justifyContent= "center" alignItems = "center" sx={{flexDirection:{lg:"row", md:"row", sm:"column", xs:"column"}, mb:"15px"}}>
     <Card
       sx={{
         width: { lg: "300px", sm: "200px", xs: "180px" },
